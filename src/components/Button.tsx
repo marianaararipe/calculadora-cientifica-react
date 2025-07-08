@@ -4,7 +4,7 @@ import styles from './Calculator.module.css';
 interface ButtonProps {
   value: string;
   onClick: (value: string) => void;
-  variant?: 'equal' | 'zero' | 'number' | 'operator' | 'control';
+  variant?: 'equal' | 'zero' | 'number' | 'operator' | 'control'; 
   extraClassName?: string;
 }
 
