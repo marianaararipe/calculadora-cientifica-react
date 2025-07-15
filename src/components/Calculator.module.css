@@ -1,0 +1,70 @@
+
+
+
+
+/* ====== LAYOUT ====== */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  /* Layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 540px;
+  position: relative;
+
+  /* Visual */
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  backdrop-filter: blur(12px) saturate(150%);
+}
+
+
+
+
+/* ====== COMPONENTS ====== */
+.sciButtons {
+  /* Layout */
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: var(--gap);
+  padding: var(--padding) 12px;
+  height: 100%;
+  overflow-y: auto;
+  align-items: flex-end;
+  box-sizing: border-box;
+
+  /* Visual */
+  border-radius: var(--border-radius) 0 0 var(--border-radius);
+  z-index: 1;
+}
+
+.calculator {
+        /* Layout */
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 340px;
+        height: 540px;
+        padding: var(--padding);
+        /*margin-left: -20px;*/
+        box-sizing: border-box;
+        position: relative;
+
+        /* Visual */
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius);
+        backdrop-filter: blur(12px) saturate(150%);
+        z-index: 2;
+}
+
+.buttonsWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 botões por linha */
+  gap: var(--gap); /* usa o mesmo espaçamento que o resto */
+}

@@ -1,0 +1,64 @@
+
+/* ====== BUTTON BASE STYLES ====== */
+.button {
+  /* Layout */
+  width: var(--button-size);
+  height: var(--button-size);
+  border: 2px solid var(--operators-color);
+  border-radius: 50%;
+
+  /* Visual */
+  background-color: var(--numbers-color);
+
+  /* Tipografia */
+  font-size: var(--button-font-size);
+  color: white;
+
+  /* Misc */
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.button:hover {
+  transform: translateY(-5px);
+}
+
+
+
+
+/* ====== BUTTON MODIFIERS ====== */
+.number {
+  background-color: var(--numbers-color);
+}
+.number:hover {
+  background-color: var(--numbers-color-hover);
+}
+
+.operator {
+  background-color: var(--operators-color);
+}
+.operator:hover {
+  background-color: var(--operators-color-hover);
+}
+
+.control {
+  background-color: var(--control-color);
+}
+.control:hover {
+  background-color: var(--control-color-hover);
+}
+
+.equal {
+  background-color: var(--equal-color);
+}
+.equal:hover {
+  background-color: var(--equal-color-hover);
+}
+
+.zero {
+  grid-column: span 2;
+  border-radius: calc(var(--button-size) / 2);
+  width: 100%;
+}
+.zero:hover {
+  background-color: var(--zero-color-hover);
+}

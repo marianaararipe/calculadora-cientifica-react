@@ -1,0 +1,20 @@
+
+.display {
+  /*  */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        min-height: 70px;
+        padding: var(--padding);
+
+  /* Visual */
+  background-color: var(--numbers-color);
+  border-radius: var(--border-radius);
+
+  /* Tipografia */
+  font-size: var(--font-size-display);
+  font-weight: bold;
+  text-align: right;
+
+
+}

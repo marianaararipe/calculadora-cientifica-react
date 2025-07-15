@@ -1,0 +1,50 @@
+/* ====== SETTINGS (variáveis, fontes) ====== */
+:root {
+  /* Cores */
+  --numbers-color: #692fa1;
+  --numbers-color-hover: #7c3eb4;
+
+  --operators-color: #4f1c6d;
+  --operators-color-hover: #5a267d;
+
+  --equal-color: #1e113f;
+  --equal-color-hover: #2b1755;
+
+  --control-color: #1e113f;
+  --control-color-hover: #2b1755;
+
+  --zero-color: #1e113f;
+  --zero-color-hover: #2b1755;
+
+  --border-color: rgba(255, 255, 255, 0.25);
+
+
+  /* Fontes e tamanhos */
+  --font-family: "Segoe UI", Tahoma, sans-serif;
+  --font-size-display: 36px;
+  --button-size: 64px;
+  --button-font-size: 1.4rem;
+  --border-radius: 20px;
+
+  /* Espaçamento */
+  --gap: 12px;
+  --padding: 20px;
+}
+
+body {
+  /* Layout */
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+
+  /* Visual */
+  background-image: url("https://i.pinimg.com/736x/b2/fb/21/b2fb21f206c56acc2007ed7e587d9770.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Faz o fundo ficar parado ao rolar */
+
+  /* Tipografia */
+  font-family: var(--font-family);
+  color: white;
+}
