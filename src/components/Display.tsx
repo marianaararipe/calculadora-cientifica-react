@@ -1,9 +1,15 @@
-import styles from './Display.module.css'
+import styles from "./Display.module.css";
 
-export default function Display() {
+type DisplayProps = {
+  expression: string;
+  result: string;
+};
+
+export default function Display({ expression, result }: DisplayProps) {
   return (
     <div className={styles.display}>
-      0
+      <div className={styles.expression}>{expression}</div>
+      <div className={styles.result}>{result ? ` ${result}` : ""}</div>
     </div>
-  )
+  );
 }

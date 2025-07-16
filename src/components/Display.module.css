@@ -1,11 +1,10 @@
-
 .display {
-  /*  */
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        min-height: 70px;
-        padding: var(--padding);
+  /* Layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 70px;
+  padding: var(--padding);
 
   /* Visual */
   background-color: var(--numbers-color);
@@ -15,6 +14,16 @@
   font-size: var(--font-size-display);
   font-weight: bold;
   text-align: right;
+}
 
+.expression {
+  font-size: var(--font-size-display);
+  font-weight: bold;
+  min-height: 32px;
+}
 
+.result {
+  font-size: 16px;
+  color: #ccc;
+  min-height: 20px;
 }
