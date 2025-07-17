@@ -37,7 +37,7 @@ As próximas funcionalidades incluem:
 
 ## 📸 Screenshot / Captura de Tela
 
-![Captura de tela do projeto](./docs/screenshot-calculadora-padrao.png)
+![Captura de tela do projeto](./screenshot-calculadora-padrao.png)
 
 
 
