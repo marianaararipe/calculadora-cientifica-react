@@ -5,6 +5,7 @@
   justify-content: flex-end;
   min-height: 70px;
   padding: var(--padding);
+  overflow: hidden;
 
   /* Visual */
   background-color: var(--numbers-color);
@@ -15,6 +16,17 @@
   font-weight: bold;
   text-align: right;
 }
+
+
+.expression, .result {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}
+
 
 .expression {
   font-size: var(--font-size-display);
@@ -27,3 +39,5 @@
   color: #ccc;
   min-height: 20px;
 }
+
+
